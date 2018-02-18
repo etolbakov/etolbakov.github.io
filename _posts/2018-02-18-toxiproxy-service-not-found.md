@@ -57,7 +57,9 @@ and check the status again to make sure our service is running:
 $ sudo systemctl status toxiproxy.service
 ```
 output:
-```● toxiproxy.service - ToxiProxy Server
+
+```
+● toxiproxy.service - ToxiProxy Server
    Loaded: loaded (/etc/systemd/system/toxiproxy.service; disabled; vendor preset: enabled)
    Active: active (running) since Fri 2018-02-16 10:47:36 GMT; 1s ago
  Main PID: 8298 (toxiproxy-serve)
