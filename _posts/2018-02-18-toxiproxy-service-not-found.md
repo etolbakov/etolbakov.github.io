@@ -1,5 +1,6 @@
 ---
 layout: post
+feature-img: "assets/img/sample_feature_img.png"
 title: Unit toxiproxy.service not found
 tags: [ubuntu, linux, proxy, toxiproxy]
 ---
