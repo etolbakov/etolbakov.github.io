@@ -1,16 +1,16 @@
 ---
 layout: post
 feature-img: "assets/img/sample_feature_img.png"
-title: Unit toxiproxy.service not found
+title: Unit `toxiproxy.service` not found
 tags: [ubuntu, linux, proxy, toxiproxy]
 ---
 Recently for some tests I had to slow down my mysql docker image. For that I used [Toxiproxy](https://github.com/Shopify/toxiproxy) tool.
-It should be easy to [set up](https://github.com/Shopify/toxiproxy#1-installing-toxiproxy) it on Ubuntu, but the final step `sudo service toxiproxy start` failed for me:
+It should be easy to [set up](https://github.com/Shopify/toxiproxy#1-installing-toxiproxy) `toxiproxy` on Ubuntu, but the final step `sudo service toxiproxy start` failed for me:
 
 ```
 Failed to restart toxiproxy.service: Unit toxiproxy.service not found.
 ```
-To make things work for me I had to
+To make things work I had to
 * create `toxiproxy.service` file
 * copy it to `/etc/systemd/system/` and reload config
 * start the `toxiproxy.service` 
