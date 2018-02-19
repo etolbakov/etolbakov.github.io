@@ -1,7 +1,7 @@
 ---
 layout: post
 feature-img: "assets/img/sample_feature_img.png"
-title: Unit `toxiproxy.service` not found
+title: Unit toxiproxy.service not found
 tags: [ubuntu, linux, proxy, toxiproxy]
 ---
 Recently for some tests I had to slow down my mysql docker image. For that I used [Toxiproxy](https://github.com/Shopify/toxiproxy) tool.
