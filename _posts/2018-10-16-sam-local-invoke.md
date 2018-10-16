@@ -1,7 +1,7 @@
 ---
 layout: post
-feature-img: "assets/img/serverless.png"
-title: Unit toxiproxy.service not found
+feature-img: "assets/img/serverless-logo.png"
+title: Integration test for AWS lambda
 tags: [serverless, lambda, amazon, integration, test, code-pipeline]
 ---
 The problem : need to create IT for a lambda
